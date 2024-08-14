@@ -1,0 +1,76 @@
+{
+  "UserData": [
+    {
+      "id": "1",
+      "Username": "yashwanth",
+      "email": "yashwanth@gmail.com",
+      "Password": "0000",
+      "ConfirmPassword": "0000",
+      "Role": "Admin",
+      "cart": []
+    },
+    {
+      "id": "2",
+      "Username": "venu",
+      "email": "venu@gmail.com",
+      "Password": "1111",
+      "ConfirmPassword": "1111",
+      "Role": "User",
+      "cart": []
+    },
+    {
+      "id": "3",
+      "Username": "vishnu",
+      "Email": "vishnu@gmail.com",
+      "Password": "7777",
+      "ConfirmPassword": "7777",
+      "Role": "User",
+      "cart": []
+    },
+    {
+      "id": "4",
+      "Username": "yogesh",
+      "Email": "yogesh@gmail.com",
+      "Password": "1234567890",
+      "ConfirmPassword": "1234567890",
+      "Role": "User",
+      "cart": []
+    },
+    {
+      "id": "5",
+      "Username": "veera",
+      "Email": "veera@gmail.com",
+      "Password": "1234567890",
+      "ConfirmPassword": "1234567890",
+      "Role": "User",
+      "cart": []
+    },
+    {
+      "id": "6",
+      "Username": "sunil",
+      "Email": "sunil@gmail.com",
+      "Password": "9999",
+      "ConfirmPassword": "9999",
+      "Role": "User",
+      "cart": []
+    }
+  ],
+  "Employees": [
+    {
+      "id": 7,
+      "Name": {
+        "name": "Vicky",
+        "position": "Manager",
+        "salary": "5000000"
+      }
+    },
+    {
+      "id": 8,
+      "Name": {
+        "name": "Vick",
+        "position": "salesman",
+        "salary": "5000000"
+      }
+    }
+  ]
+}

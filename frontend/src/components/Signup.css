@@ -1,0 +1,69 @@
+.signup_page{
+  width: 100%;
+  height:100vh;
+
+  display:flex;
+}
+.signup_container {
+  border:1px solid black;
+  
+  text-align: center;
+  
+  width:25%;
+  height:100vh ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background-color:white; */
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+  
+}
+.signup_form_div{
+
+  margin: 15px 15px 15px 15px;
+}
+.signup_form{
+  /* box-shadow: 1px 1px 1px 1px ; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: center;
+  
+
+}
+.signup_form input{
+  width: 200px;
+  padding: 10px;
+  border: black solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.signup_form select{
+  width: 230px;
+  padding: 10px;
+  border: black solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.signup_image {
+  width:75%;
+  height:100vh;
+  background-image:url("D:\App development\loginapp\src\Images\signup image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position-x:center ;
+  background-position-y:center; */
+  
+  }
+button{
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

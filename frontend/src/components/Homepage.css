@@ -1,0 +1,125 @@
+.homepage-container {
+    padding: 20px;
+  }
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to top, #ffffff 0%, #226583 100%);
+    margin-bottom: 40px;
+  }
+  
+  .hero-content {
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-btn {
+    background-color: rgb(108, 72, 142);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #e55b50;
+  }
+  
+  .homepage-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .featured-products {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background: #4580a7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .categories {
+    text-align: center;
+  }
+  
+  .categories h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .category-card {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+  }
+  .category-card:hover{transform: translateY(-4px);}
+  
+  .category-card img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .category-card h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  

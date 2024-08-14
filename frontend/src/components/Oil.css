@@ -1,0 +1,76 @@
+/* Oil.css */
+
+body, html {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+   background-repeat: no-repeat;
+   background-attachment: fixed; /* Ensures the background stays fixed during scroll */
+   background-size: cover; /* Ensures the gradient covers the entire viewport */
+ }
+ 
+ .oil_page {
+   padding: 20px;
+ }
+ 
+ .oil_image {
+   margin-left: 8%;
+   /* border: 2px solid white; */
+   border-radius: 15px;
+   width: 80%;
+   height: 50vh;
+   background-image: url("D:/App development/loginapp/src/Images/Oil image.webp");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ .oil_description {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+ }
+ 
+ .oil_product {
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   padding: 16px;
+   text-align: center;
+   background-color: white;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: all 0.5s ease;
+
+ }
+ .oil_product:hover{transform: scale(1.2);}
+ 
+ .oil_product img {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+ }
+ 
+ .oil_product h2 {
+   font-size: 1.5rem;
+   margin: 10px 0;
+ }
+ 
+ .oil_product p {
+   font-size: 1rem;
+   color: #555;
+ }
+ 
+ .oil_product button {
+   background-color: #4CAF50; /* Primary Color */
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   margin-top: 10px;
+   cursor: pointer;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .oil_product button:hover {
+   background-color: #45a049;
+ }
+ 

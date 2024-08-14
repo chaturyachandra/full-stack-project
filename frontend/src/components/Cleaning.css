@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures the background stays fixed during scroll */
+  background-size: cover; /* Ensures the gradient covers the entire viewport */
+}
+.cleaning_page {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  
+}
+.Domex_Image{
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    width: 1000px;
+    height: 40vh;
+    object-fit: contain;
+    
+
+}
+.Domex_Image img {
+    margin-top: 40px;
+    margin-left: 25%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.cleaning_description {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  
+  .cleaning_product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+
+  }
+  .cleaning_product:hover{transform: scale(1.2);}
+
+  
+  .cleaning_product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cleaning_product h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .cleaning_product p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .cleaning_product button {
+    background-color: #4CAF50; /* Primary Color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cleaning_product button:hover {
+    background-color: #45a049;
+  }

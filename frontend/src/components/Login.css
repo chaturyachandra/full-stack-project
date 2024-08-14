@@ -1,0 +1,69 @@
+.LoginPage {
+  width: 100%;
+  height:100vh;
+
+  display:flex;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+  
+}
+.LoginContainer {
+  border:1px solid black;
+  
+  text-align: center;
+  
+  width:25%;
+  height:100vh ;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color:white;
+  background-image: linear-gradient(to top, #fff1eb 0%, #acf9be 100%);
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: center;
+
+}
+.form input{
+  /* width: 200px; */
+  padding: 10px;
+  border: rgb(22, 2, 26) solid;
+  border-radius: 5px;
+  margin: 10px;
+}
+.LoginImage {
+width:75%;
+height:100vh;
+/* background-image:url("D:\App development\loginapp\src\Images\Homepage image.jpg"); */
+background-image: url("D:\App development\loginapp\src\Images\login immage.jpg");
+background-repeat: no-repeat;
+background-size: 100%;
+/* background-position-x:center ;+
+
+background-position-y:center; */
+
+}
+.project_title{
+  color:blueviolet;
+  font-family:Georgia,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.label
+{
+  margin-right:20px;
+}
+.showpassword label{
+  margin-right: 40px;
+}

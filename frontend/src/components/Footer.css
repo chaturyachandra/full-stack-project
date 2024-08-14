@@ -1,0 +1,44 @@
+/* Footer.css */
+.footer {
+    /* background-color: blueviolet; Light gray background */
+    padding: 20px;
+    /* margin-top:30px; Padding around the footer content */
+    text-align: center;
+    border-top: 1px solid #e7e7e7; /* Light border at the top */
+    /* margin-top: 40px; Margin to create space above the footer */
+  }
+  
+  .footer-content {
+    max-width: 800px; /* Limit the width of the footer content */
+    margin: 0 auto; /* Center the footer content */
+    color: #333; /* Dark text color for better readability */
+  }
+  
+  .footer-content h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Larger font size for the heading */
+    color: #222; /* Slightly darker color for the heading */
+  }
+  
+  .footer-content ul {
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+  }
+  
+  .footer-content li {
+    margin-bottom: 15px; /* Space below each list item */
+    text-align: left; /* Left-align the list items */
+  }
+  
+  .footer-content strong {
+    display: block; /* Make the strong element a block element */
+    margin-bottom: 5px; /* Space below each strong element */
+    font-size: 18px; /* Slightly larger font size for the strong text */
+  }
+  
+  .footer-content li br {
+    display: none; /* Hide the line break */
+  }
+  
